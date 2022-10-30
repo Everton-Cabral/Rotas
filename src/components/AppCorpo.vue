@@ -17,6 +17,7 @@ export default {
     justify-content: center;
     text-align: center;
     background-image: url('../imagens/mapadefundo.jpg');
+    height: 100vh;
    
 }
 </style>

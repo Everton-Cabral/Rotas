@@ -18,6 +18,10 @@
     @extend .a-items-center;
    
 }
+.subtitulo{
+    color:#BDBDBD;
+    margin-top: 10px;
+}
 
 #logo{
     height: 80px;
@@ -25,13 +29,13 @@
 #mapa{
     height: 165px;
     width: 263px;
-    margin-top: 180px;
+    padding: 100px 0px 50px 0px;
     
 }
 #logoIfood{
     height: 150px;
     width: 150px;
-    margin-top: 180px;
+    padding: 50px;
 }
 
 .titulo{
@@ -106,7 +110,7 @@ input{
 .footer{
     @extend .dis-flex;
     @extend .a-items-center;
-    margin-top: 100px;
+    padding: 50px;
 }
 
 .fade-enter-active, .fade-leave-active {

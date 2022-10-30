@@ -3,10 +3,11 @@
         <div class="homeLeft">
             <div class="titulo">
                 <img id="logo" src="../../imagens/logoRotas-removebg-preview.png" alt="rotas">
-                <h1>GERENCIADOR DE ROTAS</h1>
+                <h1>ROTAS</h1>
+               
 
             </div>
-
+            <span class="subtitulo">Acompanhe e Gerencie no mapa seus pedidos</span>
             <img id="mapa" class="figuras" src="../../imagens/mapa.png" alt="Mapa">
             <img id="logoIfood" class="figuras" src="../../imagens/ifood.png" alt="Ifood">
         </div>
