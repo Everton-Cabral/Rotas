@@ -187,7 +187,7 @@ methods:{
         redirect: 'follow'
         };
 
-        fetch("http://191.252.193.209:3333/users", requestOptions)
+        fetch("https://191.252.193.209:3333/users", requestOptions)
             .then(response => response.text())
             .then(result => console.log(result))
             .catch(error => console.log('error', error));
@@ -209,7 +209,7 @@ methods:{
         redirect: 'follow'
         };
 
-        fetch("http://191.252.193.209:3333/sessions", requestOptions)
+        fetch("https://191.252.193.209:3333/sessions", requestOptions)
             .then(response => response.text())
             .then(result => console.log(result))
             .catch(error => console.log('error', error));
