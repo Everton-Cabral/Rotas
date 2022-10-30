@@ -1,0 +1,118 @@
+@import '../../scss/style.scss';
+
+.home{
+    @extend .dis-flex;
+    width: 80%;
+    padding: 50px;
+    font-family: 'GFS Didot', serif;
+   
+}
+
+.homeLeft{
+    background-color: $background-home-left;
+    color: $color-title;
+    width: 40%;
+    @extend .dis-flex;
+    @extend .text-a-center;
+    @extend .flex-dir-colum;
+    @extend .a-items-center;
+   
+}
+
+#logo{
+    height: 80px;
+}
+#mapa{
+    height: 165px;
+    width: 263px;
+    margin-top: 180px;
+    
+}
+#logoIfood{
+    height: 150px;
+    width: 150px;
+    margin-top: 180px;
+}
+
+.titulo{
+    display: flex;
+    align-items: center;
+    margin-top: 120px;
+}
+.homeRight{
+    background-color: $background-home-right;
+    width: 60%;
+    color: $color-title;
+    @extend .dis-flex;
+    @extend .text-a-center;
+    @extend .flex-dir-colum;
+    @extend .a-items-center;
+}
+#titleRight{
+    margin-top: 150px;
+}
+.form{
+    @extend .dis-flex;
+    @extend .text-a-center;
+    @extend .flex-dir-colum;
+    @extend .a-items-center;
+    margin-top: 40px;
+}
+input{
+    width: 420px;
+    height: 42px;
+    font-size: 18px;
+    padding-left: 10px;
+   
+}
+
+
+.input{
+    display: flex;
+    align-items: center;
+    margin-top: 30px;
+  
+    
+}
+.iconEmail, .iconUsuario, .iconSenha{
+    height: 44px;
+    width: 40px;
+    background-color: white;
+    background-repeat: no-repeat;
+    background-size: 36px;
+    background-position: center;
+}
+.iconEmail{
+    background-image: url("https://img.icons8.com/small/32/000000/secured-letter.png");
+}
+.iconUsuario{
+    background-image: url("https://img.icons8.com/ios-filled/50/000000/gender-neutral-user.png");
+}
+.iconSenha{
+    background-image: url("https://img.icons8.com/ios-glyphs/30/000000/lock--v1.png");
+}
+.subForm{
+    width: 100%;
+    @extend .dis-flex;
+}
+.alertForm{
+    margin-left: 10px;
+    margin-top: 5px;
+    font-size: 12px;
+    color: #FA5858;
+  
+}
+
+.footer{
+    @extend .dis-flex;
+    @extend .a-items-center;
+    margin-top: 100px;
+}
+
+.fade-enter-active, .fade-leave-active {
+    transition: opacity .5s;
+  }
+  .fade-enter, .fade-leave-to /* .fade-leave-active below version 2.1.8 */ {
+    opacity: 0;
+  }
+

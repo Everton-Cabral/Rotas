@@ -1,17 +1,23 @@
 <template>
   <div id="app">
-    <AppMap />
+    <AppCorpo/>
+    
   </div>
 </template>
 
 <script>
-import AppMap from './components/AppMap.vue';
 
+import AppCorpo from './components/AppCorpo.vue'
 export default {
-    components: { AppMap }
+    components: {AppCorpo}
 }
 </script>
 
 <style>
+*{
+  margin: 0px;
+  padding: 0px;
+  
+}
 
 </style>

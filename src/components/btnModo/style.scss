@@ -1,0 +1,19 @@
+@import '../../scss/style.scss';
+
+.btnModo{
+    height: 35px;
+    width: 92px;
+    background-color: #FE2E2E;
+    color: white;
+    @extend .border-r-10;
+    font-size: 16px;
+    margin-left: 10px;
+    border: none;
+    @extend .dis-flex;
+    @extend .jus-cont-center;
+    @extend .a-items-center;
+}
+.btnModo:hover{
+    background-color: #F78181;
+    cursor: pointer;
+}
